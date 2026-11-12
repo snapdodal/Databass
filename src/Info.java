@@ -7,17 +7,18 @@ public class Info {
         this.Phone_num = Phone_num;
         this.Email = Email;
     }
-
+    // get
     public int getPhone_num() {
         return Phone_num;
     }
 
-    public void setPhone_num(int phone_num) {
-        this.Phone_num = phone_num;
-    }
-
     public String getEmail() {
         return Email;
+    }
+
+    //set
+    public void setPhone_num(int phone_num) {
+        this.Phone_num = phone_num;
     }
 
     public void setEmail(String email) {
