@@ -3,9 +3,9 @@ public class Info {
     private int Phone_num;
     private String Email;
 
-    public Info(int nigger, String nugger) {
-        this.Phone_num = nigger;
-        this.Email = nugger;
+    public Info(int Phone_num, String Email) {
+        this.Phone_num = Phone_num;
+        this.Email = Email;
     }
 
     public int getPhone_num() {
@@ -23,4 +23,10 @@ public class Info {
     public void setEmail(String email) {
         this.Email = email;
     }
+
+
+
+
+
+
 }
